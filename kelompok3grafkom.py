@@ -65,3 +65,4 @@ else:
 
     plt.plot(titikA,titikB)
     plt.show()
+#grafkom
