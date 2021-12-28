@@ -24,17 +24,17 @@ if x1 == x2: #kondisi jika x1 = x2
     titikA = []
     titikB = []
     while i < y2: #looping dengan kondisi i<y2
-        if y1 == y2:
+        if y1 == y2: #kondisi y1=y2
             print('Garis yang di lewati yaitu', x,',', y )
             titikA.append(x)
             titikB.append(y)
-        else:
+        else: #kondisi lainnya
             print('titik-titik pembentuk garis', x,',', y+i )
             titikA.append(x)
             titikB.append(y+i)
         i+=1
-    plt.plot(titikA,titikB)
-    plt.show()
+    plt.plot(titikA,titikB) #membuat titik 
+    plt.show() 
 elif y1 == y2:
     titikA = []
     titikB = []
