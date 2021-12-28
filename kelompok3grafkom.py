@@ -20,10 +20,10 @@ y = y1
 i = 1
 
 
-if x1 == x2:
+if x1 == x2: #kondisi jika x1 = x2
     titikA = []
     titikB = []
-    while i < y2:
+    while i < y2: #looping dengan kondisi i<y2
         if y1 == y2:
             print('Garis yang di lewati yaitu', x,',', y )
             titikA.append(x)
