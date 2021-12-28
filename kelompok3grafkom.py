@@ -48,12 +48,12 @@ elif y1 == y2: #kondisi jika y1=y2
             titikA.append(x+i)
             titikB.append(y)
         i+=1
-    plt.plot(titikA,titikB) 
-    plt.show()
+    plt.plot(titikA,titikB)#membuat titik 
+    plt.show()#menampilkan
 else:
     titikA = []
     titikB = []
-    while i <= N:
+    while i <= N:#looping dengan kondisi i<=N
         m = nilaiY / nilaiX
         rumusY = m * (x - x1) + y1
         kordinatY = round(rumusY)
