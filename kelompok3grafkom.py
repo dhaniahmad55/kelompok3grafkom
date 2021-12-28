@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 
 #Inisialisasikan titik kordinat (x1,y1) dan kordinat (x2,y2)
@@ -13,7 +13,7 @@ nilaiY = y2 - y1
 nilaiX = x2 - x1
 N = x2 - x1 + 1
 
-# titik awal x dan y
+# titik awalnya adalah x dan y
 x = x1
 y = y1
 
