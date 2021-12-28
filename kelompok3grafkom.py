@@ -39,16 +39,16 @@ elif y1 == y2: #kondisi jika y1=y2
     titikA = []
     titikB = []
     while i < y2: #looping dengan kondisi i<y2
-        if x1 == x2:
+        if x1 == x2: #kondisi x1=x2
             print('titik-titik pembentuk garis', x,',', y )
             titikA.append(x)
             titikB.append(y)
-        else:
+        else: #kondisi lainnya
             print('titik-titik pembentuk garis', x+i,',', y )
             titikA.append(x+i)
             titikB.append(y)
         i+=1
-    plt.plot(titikA,titikB)
+    plt.plot(titikA,titikB) 
     plt.show()
 else:
     titikA = []
