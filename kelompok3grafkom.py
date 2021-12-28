@@ -34,11 +34,11 @@ if x1 == x2: #kondisi jika x1 = x2
             titikB.append(y+i)
         i+=1
     plt.plot(titikA,titikB) #membuat titik 
-    plt.show() 
-elif y1 == y2:
+    plt.show() #menampilkan
+elif y1 == y2: #kondisi jika y1=y2
     titikA = []
     titikB = []
-    while i < y2:
+    while i < y2: #looping dengan kondisi i<y2
         if x1 == x2:
             print('titik-titik pembentuk garis', x,',', y )
             titikA.append(x)
