@@ -30,7 +30,7 @@ if x1 == x2: #kondisi jika x1 = x2
             titikB.append(y)
         else: #kondisi lainnya
             print('titik-titik pembentuk garis', x,',', y+i )
-            titikA.append(x)
+            titikA.append(x) # append untuk menambah elemen baru di index selanjutnya pada list.
             titikB.append(y+i)
         i+=1
     plt.plot(titikA,titikB) #membuat titik 
